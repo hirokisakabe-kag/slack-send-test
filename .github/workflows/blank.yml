@@ -24,7 +24,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "${{ github.event.comment.user.email }}"
+                    "text": "${{ github.event.comment.user.login }}"
                   }
                 },
                 {
