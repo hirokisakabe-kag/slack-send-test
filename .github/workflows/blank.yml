@@ -38,7 +38,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "${{ github.event.comment }}"
+                    "text": "${{ github.event.comment.body }}"
                   }
                 }
               ]
