@@ -21,12 +21,12 @@ jobs:
                   }
                 },
                 {
-                  "type": "header",
+                  "type": "section",
                   "text": {
-                    "type": "plain_text",
-                    "text": "${{ github.event.comment.user.name }}"
+                    "type": "mrkdwn",
+                    "text": "${{ github.event.comment.issue_url }}"
                   }
-                },
+                }
                 {
                   "type": "section",
                   "text": {
