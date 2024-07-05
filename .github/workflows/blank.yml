@@ -31,13 +31,6 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "${{ github.event.sender.name }}"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
                     "text": "${{ github.event.comment.body }}"
                   }
                 }
